@@ -17,5 +17,5 @@ Script description
 Repository Information
 This repository contains 3 main files:
 ‘Project_getting_cleaning_data.R’ - This script perform sthe analysis on the required sample data.
-tidy.txt - This is the final output from the run_analysis.R script.  It contains a cleansed version of the sample data.
-CodeBook.md - Contains the definitions of each of the columns in our generated tidy.txt file.
+tidy_data.txt - This is the final output from the ‘Project_getting_cleaning_data.R’ script.  It contains a cleansed version of 
+the sample data. CodeBook.md - Contains the definitions of each of the columns in our generated tidy_data.txt file.

@@ -1,0 +1,21 @@
+Getting and Cleaning Data - Coursera Project
+
+This files reports the steps undertaken to achieve the goals of the project work.
+
+Project Summary
+This project was set up to extract mean and standard error values from a dataset which was produced during the Human Activity Recognition Using Smartphone Study to obtain a tidy dataset with the help of R. The ‘Project_getting_cleaning_data.R’ script will execute different commands to yield the desired results. 
+Script description
+1.	Basic set up of workspace, working directory and data acquisition
+2.	Reading in the training and test data sets for further analysis
+3.	Merging data to obtain one big dataset
+4.	Load feature list, extract subset of mean/std that we need and include it in the dataset
+5.	Name the activities in the dataset
+6.	Get column names with subset from feature list
+7.	Use reshape2 to create new tidy data with means and std 
+8.	Write tidy data as csv file into directory
+
+Repository Information
+This repository contains 3 main files:
+‘Project_getting_cleaning_data.R’ - This script perform sthe analysis on the required sample data.
+tidy.txt - This is the final output from the run_analysis.R script.  It contains a cleansed version of the sample data.
+CodeBook.md - Contains the definitions of each of the columns in our generated tidy.txt file.

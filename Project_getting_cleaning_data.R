@@ -100,4 +100,4 @@ final.mean <- dcast(melted, ID + activity ~ variable, mean)
 
 # 8. Write tidy data as .txt file into directory
 # Export the data out to a comma separated values (csv) file
-write.table(final.mean, file=file.path("tidy_data.csv"), row.names = FALSE, quote = FALSE)
+write.table(final.mean, file=file.path("tidy_data.txt"), row.names = FALSE, quote = FALSE)

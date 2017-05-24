@@ -1,11 +1,11 @@
-# Code Book
+Code Book
 
-Description of codes used in the 'tidy_data.txt' file.
+Description of variables used in the 'tidy_data.txt' file.
 
 
-'ID'       - 'integer' - The ID of the test subject, range: 1 - 30
-'activity' - 'string' - Activity that the candidates were doing when the measurements were taken, in total 6 different 
- activities were recorded:
+'ID'       - class: 'integer' - The ID of the test subject, range: 1 - 30
+'activity' - class: 'string'  - Activity that the candidates were doing when the measurements were taken, in total 6 different 
+                                activities were recorded:
 
    - Walking
    - Walking Upstairs
